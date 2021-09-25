@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    height: 90vh;
+    /* background: url("loginpagebackground.jpg"); */
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  
+    background: linear-gradient(to right, #ffc0cb, #800080); 
+    background-size: cover;
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+input{
+    /* display: block; */
+    text-align: left;
+    width: 550px;
+    height: 30px;
+    margin: 20px;
+    border:darkviolet;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    background: transparent;
+    border-radius: 24px;
+    padding: 14px 10px;
+}
+button{
+    width: 400px;
+    left: 50%;
+    height: 40px;
+    font-size: 20px;
+    background-color:violet;
+    border:white;
+    color: black;
+    text-align: center;
+    border-radius: 24px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+    margin-top:10px;
+}
+h1
+{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+}
+form h1
+{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+::placeholder{
+    color:indigo;
+    text-align: center;
+}
+#box
+{
+text-align: center;
+
+}
+
+@media (min-width:425px) and (max-width: 766px)
+{
+    input
+    {
+        width: 350px;
+    }
+}
+
+@media (min-width:278px) and (max-width: 425px)
+{
+    input
+    {
+        width: 350px;
+    }
+    h1
+    {
+        margin-top: 200px;
+        font-size: 20px;
+     
+    }
+    body
+    {
+        max-width: 100%;
+        display: flex;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 320px;
+    }
+    
+    #box
+    {
+    text-align: center;
+
+    }
+}
